@@ -1,0 +1,25 @@
+{
+    "airline":[
+        {
+            "name": "Qatar Airways",
+            "country":"Qatar",
+            "key": "QA",
+            "code":"1",
+            "logo":"https://fastui.cltpstatic.com/raw/upload/v1/flyinstatic/img/flights/1x/airline-logos/QR.png"
+        },
+        {
+            "name": "Turkish Airlines",
+            "country":"Turkish",
+            "key": "TKA",
+            "code":"2",
+            "logo":"https://fastui.cltpstatic.com/raw/upload/v1/flyinstatic/img/flights/1x/airline-logos/TK.png"
+        },
+        {
+            "name": "Egypt Air",
+            "country":"Egypt",
+            "key": "EA",
+            "code":"3",
+            "logo":"https://fastui.cltpstatic.com/raw/upload/v1/flyinstatic/img/flights/1x/airline-logos/MS.png"
+        }
+    ]
+}

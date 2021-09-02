@@ -1,0 +1,47 @@
+{
+    "hotel": [
+    {
+        
+        "code": 1,
+        "key": "IQ",
+        "country":"Iraq",
+        "mainPhoto": "img/Hotels/BabilonHotelIraq.jpg",
+        "name":"Babilon" 
+    },
+    {
+        "code": 2,
+        "key": "AE",
+        "country":"Emarat",
+        "mainPhoto": "img/Hotels/BurjAlArabHotelEm.jpg",
+        "name":"Burj AlArab" 
+    },
+    {
+        "code": 3,
+        "key": "AE",
+        "country":"Emarat",
+        "mainPhoto": "img/Hotels/ShiratonHotelEmarat.jpg",
+        "name":"Shiraton" 
+    },
+    {
+        "code": 4,
+        "key": "AE",
+        "country":"Emarat",
+        "mainPhoto": "img/Hotels/TulipHotelShariqa.jpg",
+        "name":"Tulip" 
+    },
+    {
+        "code": 5,
+        "key": "AE",
+        "country":"Emarat",
+        "mainPhoto": "img/Hotels/DubaiHotelEm.jpg",
+        "name":"Dubai Hotel" 
+    },
+    {
+        "code": 6,
+        "key": "EG",
+        "country":"Egypt",
+        "mainPhoto": "img/Hotels/FairmontHotelEg.jpg",
+        "name":"Fairmont" 
+    }
+]
+}

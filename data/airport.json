@@ -1,0 +1,52 @@
+{
+    "airport":[
+        {
+            "name": "Doha International Airport",
+            "country": "Qatar",
+            "city":"Doha",
+            "code":"11"
+        },
+        {
+            "name": "Hamad International Airport",
+            "country": "Qatar",
+            "city":"Doha",
+            "code":"12"
+        },
+        {
+            "name": "Istanbul Arnavutköy International Airport",
+            "country": "Turkey",
+            "city":"Istanbul",
+            "code":"21"
+        },
+        {
+            "name": "Istanbul Atatürk International Airport",
+            "country": "Turkey",
+            "city":"Istanbul",
+            "code":"22"
+        },
+        {
+            "name": "Istanbul Sabiha Gökçen International Airport",
+            "country": "Turkey",
+            "city":"Istanbul",
+            "code":"23"
+        },
+        {
+            "name": "Borg El Arab Airport",
+            "country": "Egypt",
+            "city":"Alexandria",
+            "code":"31"
+        },
+        {
+            "name": "Cairo International Airport",
+            "country": "Egypt",
+            "city":"Cairo",
+            "code":"32"
+        },
+        {
+            "name": "Luxor International Airport",
+            "country": "Egypt",
+            "city":"Luxor",
+            "code":"33"
+        }
+    ]
+}

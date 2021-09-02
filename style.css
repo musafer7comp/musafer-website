@@ -1,0 +1,466 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all 0.5s ease;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+ :root {
+    --bg: #ebeff1cb;
+    --c1: #FDDB27FF;
+    --c2: #1F94D4;
+}
+
+body {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #0e0d0d;
+    text-align: left;
+    background-color: var(--bg);
+}
+
+
+/* top nav style */
+
+.topnav {
+    position: relative;
+}
+
+.topnav .fab,
+.topnav .fa {
+    position: relative;
+    font-size: 1.2rem;
+    color: var(--c2);
+}
+
+.topnav .fab:hover {
+    transform: rotateY(180deg);
+}
+
+
+/* bottom nav style*/
+
+.navbar-brand span {
+    color: var(--c2);
+}
+
+.nav-link span {
+    transition: all 0.5s ease;
+    color: var(--primary);
+}
+
+.nav-link span:hover,
+.active {
+    color: var(--primary);
+    font-weight: 900;
+}
+
+.dropdown-item:hover {
+    background-color: var(--c2);
+}
+
+
+/*header style*/
+
+header {
+    position: relative;
+}
+
+.header-video {
+    position: relative;
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 20%;
+}
+
+
+/*booking style*/
+
+.booking {
+    position: relative;
+}
+
+.booking h2 {
+    color: var(--c2);
+    font-weight: 900;
+}
+
+.bookbtn,
+.submit {
+    background-color: var(--c2);
+    color: var(--c1);
+    font-weight: 900;
+    transition: all 0.5 ease;
+}
+
+.bookbtn:hover {
+    box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+    transform: translateY(-0.25em);
+    color: var(--c1);
+}
+
+
+/*about style*/
+
+@media screen and (min-width:992px) {
+    .about-text {
+        position: relative;
+        right: 50px;
+    }
+}
+
+.about-text h6 {
+    color: var(--c2);
+    font-weight: 700;
+    letter-spacing: 5px;
+    font-size: 20px;
+}
+
+.about-text h1 {
+    color: black;
+    font-weight: 800;
+}
+
+
+/*feature style*/
+
+.feature .fa {
+    color: var(--c1);
+    font-weight: 900;
+}
+
+.feature h5 {
+    color: var(--c2);
+    font-weight: 900;
+}
+
+.feature p {
+    font-weight: 600;
+}
+
+
+/*destination style*/
+
+.destination h6 {
+    letter-spacing: 5px;
+    color: var(--c2);
+    font-weight: 900;
+}
+
+.destination h1 {
+    font-weight: 900;
+}
+
+.destination-item img {
+    transition: .5s;
+}
+
+.destination-item:hover img {
+    transform: scale(1.3);
+}
+
+.destination-overlay {
+    font-weight: 900;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    bottom: 30px;
+    left: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.3);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    transition: .5s;
+    z-index: 1;
+}
+
+.destination-item:hover .destination-overlay {
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    border-width: 30px;
+}
+
+
+/*services style*/
+
+.services h6 {
+    letter-spacing: 5px;
+    color: var(--c2);
+    font-weight: 900;
+}
+
+.services h1 {
+    font-weight: 800;
+}
+
+.services h5 {
+    color: var(--c2);
+    font-weight: 900;
+}
+
+.services p {
+    font-weight: 600;
+}
+
+.service-item {
+    transition: .5s;
+}
+
+.service-item:hover {
+    box-shadow: 0 0 30px #CCCCCC;
+}
+
+.service-item i {
+    width: 75px;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid var(--c2);
+    background: #FFFF;
+    color: var(--c1);
+    transition: .5s;
+}
+
+.service-item:hover i {
+    background: var(--c2);
+    color: var(--c1);
+}
+
+
+/*registration style*/
+
+.register-details {
+    background-color: rgb(0, 47, 88);
+    opacity: 0.6;
+}
+
+.register-details h6 {
+    column-rule: var(--c1);
+    font-weight: 900;
+    letter-spacing: 5px;
+}
+
+.register-details h1 {
+    color: white;
+}
+
+.register-details h1 span {
+    color: var(--c1);
+    font-weight: 900;
+}
+
+.register-details .fa-check {
+    color: var(--c1);
+    font-weight: 600;
+}
+
+.register .card-header h1 {
+    color: var(--c1);
+}
+
+.register .card-body small {
+    color: red;
+    display: none;
+}
+
+.register button {
+    color: var(--c1);
+    font-weight: 800;
+}
+
+.bg-registration {
+    background: url(../img/req-bk3.jpg), no-repeat;
+    background-size: cover;
+    opacity: 10.5;
+}
+
+
+/*team style*/
+
+.team h6 {
+    font-weight: 900;
+    color: var(--c2);
+    letter-spacing: 5px;
+}
+
+.team-item {
+    transition: .5s;
+}
+
+.team-item h5 {
+    color: var(--c2);
+    font-weight: 900;
+}
+
+.team p {
+    font-weight: 600;
+}
+
+.team-social {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .5s;
+}
+
+.team-social a.btn {
+    position: relative;
+    margin: 0 5px;
+    margin-top: 100px;
+    opacity: 0;
+    padding: 10px 15px;
+    outline: 1px solid var(--c1);
+    color: white;
+    transition: 0.5s;
+}
+
+.team-social a.btn:hover {
+    background-color: var(--c1);
+    color: white;
+}
+
+.team-item:hover {
+    box-shadow: 0 0 30px #CCCCCC;
+}
+
+.team-item:hover .team-social {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.team-item:hover .team-social a.btn:first-child {
+    opacity: 1;
+    margin-top: 0;
+    transition: .3s 0s;
+}
+
+.team-item:hover .team-social a.btn:nth-child(2) {
+    opacity: 1;
+    margin-top: 0;
+    transition: .3s .1s;
+}
+
+.team-item:hover .team-social a.btn:nth-child(3) {
+    opacity: 1;
+    margin-top: 0;
+    transition: .3s .2s;
+}
+
+.team-item:hover .team-social a.btn:nth-child(4) {
+    opacity: 1;
+    margin-top: 0;
+    transition: .3s .3s;
+}
+
+.team-item .team-img img {
+    transition: .5s;
+}
+
+.team-item:hover .team-img img {
+    transform: scale(1.2);
+}
+
+
+/*footer style*/
+
+.footer {
+    background-color: var(--c2);
+}
+
+.footer .navbar-brand h1 {
+    color: var(--c1);
+}
+
+.footer .social a {
+    background-color: var(--c1);
+    padding: 15px 20px;
+    color: white;
+    font-weight: 700;
+    font-size: 15px;
+    border-radius: 50%;
+}
+
+.footer h5 {
+    color: var(--c1);
+    font-weight: 700;
+}
+
+.footer .contact .fa {
+    color: var(--c1);
+    font-weight: 700;
+}
+
+.footer .contact p {
+    color: white;
+}
+
+.back-to-top {
+    background-color: var(--c2);
+    color: var(--c1);
+    font-weight: 900;
+    margin-left: 88%;
+}
+
+.back-to-top:hover {
+    background-color: var(--c2);
+    color: var(--c1);
+    font-weight: 900;
+}
+
+.line {
+    height: 1px;
+    max-width: 50%;
+    background-color: rgba(177, 177, 177, 0.452);
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.content {
+    background-image: url("/img/req-bk3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+}
+
+.content>div {
+    padding: 15px;
+}
+
+.content h5 {
+    color: aliceblue;
+}
+
+.content .form-control {
+    width: 100%;
+}
+
+.content .msg {
+    border: 1px solid rgb(240, 240, 240);
+    border-radius: 5px;
+    width: 100%;
+    height: 150px;
+}

@@ -1,0 +1,108 @@
+{
+    "hotelDet": [
+        {
+            "code": 1,
+            "keyCountry": 2,
+            "hotelName":"Babilon Hotel",
+            "bigImage":"img/Hotels/BabilonDetails/BabilonBig.jpg",
+            "img1":"img/Hotels/BabilonDetails/Babilon1.jpg",
+            "img2":"img/Hotels/BabilonDetails/Babilon2.jpg",
+            "img3":"img/Hotels/BabilonDetails/Babilon3.jpg",
+            "img4":"img/Hotels/BabilonDetails/Babilon4.jpg",
+            "img5":"img/Hotels/BabilonDetails/Babilon5.jpg",
+            "img6":"img/Hotels/BabilonDetails/Babilon6.jpg",
+            "img7":"img/Hotels/BabilonDetails/Babilon7.jpg",
+            "img8":"img/Hotels/BabilonDetails/Babilon8.jpg",
+            "img9":"img/Hotels/BabilonDetails/Babilon9.jpg",
+            "img10":"img/Hotels/BabilonDetails/Babilon10.jpg"
+           
+        },
+    {
+        "code": 2,
+        "keyCountry": 1,
+        "hotelName":"Burj Al-Arab Hotel",
+        "bigImage":"img/Hotels/BurjAlArabDetails/BurjAlArabBig.jpg",
+        "img1":"img/Hotels/BurjAlArabDetails/BurjArab1.jpg",
+        "img2":"img/Hotels/BurjAlArabDetails/BurjArab2.jpg",
+        "img3":"img/Hotels/BurjAlArabDetails/BurjArab3.jpg",
+        "img4":"img/Hotels/BurjAlArabDetails/BurjArab4.jpg",
+        "img5":"img/Hotels/BurjAlArabDetails/BurjArab5.jpg",
+        "img6":"img/Hotels/BurjAlArabDetails/BurjArab6.jpg",
+        "img7":"img/Hotels/BurjAlArabDetails/BurjArab7.jpg",
+        "img8":"img/Hotels/BurjAlArabDetails/BurjArab8.jpg",
+        "img9":"img/Hotels/BurjAlArabDetails/BurjArab9.jpg",
+        "img10":"img/Hotels/BurjAlArabDetails/BurjArab10.jpg"
+       
+    },
+    {
+        "code": 3,
+        "keyCountry": 1,
+        "hotelName":"Shiraton Hotel",
+        "bigImage":"img/Hotels/ShiratonHotel/SheratonBig.jpg",
+        "img1":"img/Hotels/ShiratonHotel/Shiraton1.jpg",
+        "img2":"img/Hotels/ShiratonHotel/Shiraton2.jpg",
+        "img3":"img/Hotels/ShiratonHotel/Shiraton3.jpg",
+        "img4":"img/Hotels/ShiratonHotel/Shiraton4.jpg",
+        "img5":"img/Hotels/ShiratonHotel/Shiraton5.jpg",
+        "img6":"img/Hotels/ShiratonHotel/Shiraton6.jpg",
+        "img7":"img/Hotels/ShiratonHotel/Shiraton7.jpg",
+        "img8":"img/Hotels/ShiratonHotel/Shiraton8.jpg",
+        "img9":"img/Hotels/ShiratonHotel/Shiraton9.jpg",
+        "img10":"img/Hotels/ShiratonHotel/Shiraton10.jpg"
+       
+    },
+    {
+        "code": 4,
+        "keyCountry": 3,
+        "hotelName":"Tulip Hotel",
+        "bigImage":"img/Hotels/TulipDetails/TulipBig.jpg",
+        "img1":"img/Hotels/TulipDetails/Tulip1.jpg",
+        "img2":"img/Hotels/TulipDetails/Tulip2.jpg",
+        "img3":"img/Hotels/TulipDetails/Tulip3.jpg",
+        "img4":"img/Hotels/TulipDetails/Tulip4.jpg",
+        "img5":"img/Hotels/TulipDetails/Tulip5.jpg",
+        "img6":"img/Hotels/TulipDetails/Tulip6.jpg",
+        "img7":"img/Hotels/TulipDetails/Tulip7.jpg",
+        "img8":"img/Hotels/TulipDetails/Tulip8.jpg",
+        "img9":"img/Hotels/TulipDetails/Tulip9.jpg",
+        "img10":"img/Hotels/TulipDetails/Tulip10.jpg"
+       
+    },
+    {
+        "code": 5,
+        "keyCountry": 1,
+        "hotelName":"Dubai Hotel",
+        "bigImage":"img/Hotels/DubaiHotelDetails/DubaiHotelBig.jpg",
+        "img1":"img/Hotels/DubaiHotelDetails/DubaiHotel1.jpg",
+        "img2":"img/Hotels/DubaiHotelDetails/DubaiHotel2.jpg",
+        "img3":"img/Hotels/DubaiHotelDetails/DubaiHotel3.jpg",
+        "img4":"img/Hotels/DubaiHotelDetails/DubaiHotel4.jpg",
+        "img5":"img/Hotels/DubaiHotelDetails/DubaiHotel5.jpg",
+        "img6":"img/Hotels/DubaiHotelDetails/DubaiHotel6.jpg",
+        "img7":"img/Hotels/DubaiHotelDetails/DubaiHotel7.jpg",
+        "img8":"img/Hotels/DubaiHotelDetails/DubaiHotel8.jpg",
+        "img9":"img/Hotels/DubaiHotelDetails/DubaiHotel9.jpg",
+        "img10":"img/Hotels/DubaiHotelDetails/DubaiHotel10.jpg"
+       
+    },
+    
+    
+    {
+        "code": 6,
+        "keyCountry": 3,
+        "hotelName":"Fairmont Hotel",
+        "bigImage":"img/Hotels/FairmontDetails/FairmontBig.jpg",
+        "img1":"img/Hotels/FairmontDetails/Fairmont1.jpg",
+        "img2":"img/Hotels/FairmontDetails/Fairmont2.jpg",
+        "img3":"img/Hotels/FairmontDetails/Fairmont3.jpg",
+        "img4":"img/Hotels/FairmontDetails/Fairmont4.jpg",
+        "img5":"img/Hotels/FairmontDetails/Fairmont5.jpg",
+        "img6":"img/Hotels/FairmontDetails/Fairmont6.jpg",
+        "img7":"img/Hotels/FairmontDetails/Fairmont7.jpg",
+        "img8":"img/Hotels/FairmontDetails/Fairmont8.jpg",
+        "img9":"img/Hotels/FairmontDetails/Fairmont9.jpg",
+        "img10":"img/Hotels/FairmontDetails/Fairmont10.jpg"
+    }
+    
+]
+}
